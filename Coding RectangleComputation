@@ -1,0 +1,14 @@
+package numericallData;
+
+public class RectangleComputation {
+	public static void main(String[] args) {
+		double a,p;
+		double l=4;
+		double w=5;
+		a=l*w;
+		p=2*l+2*w;
+		System.out.println("Area is "+a);
+		System.out.println("Perimeter is "+p);
+		
+	}
+}
