@@ -1,0 +1,19 @@
+package numericallData;
+
+public class CylinderComputation {
+		public static void main(String[] args) {
+			double sa,ba,v;
+			double r=3;
+			double h=5;
+			double PI=3.14159265;
+			ba=PI*r*r;
+			sa=(2*PI*r)*h;
+			v=ba*h;
+			System.out.println("BaseArea is ");
+			System.out.printf("%.2f\n",ba);
+			System.out.println("SurfaceArea is ");
+			System.out.printf("%.2f\n",sa);
+			System.out.println("Valume is ");
+			System.out.printf("%.2f\n",v);
+		}
+}
